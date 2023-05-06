@@ -1,11 +1,13 @@
 # Selection-Sort-Proje
 Veri yapıları ve Algoritmalar-Proje1
+
 [22,27,16,2,18,6] n 
 [2,27,16,22,18,6] n-1 
 [2,6,16,22,18,27] n-2 
 [2,6,16,18,22,27] n-3
 
 Big-O gösterimi:
+
 n+(n-1)+(n-2)+n-3)+(n-4)+1=[n.(n+1)]/2=(n^2+n)/2===>O(n^2)
 
 18 sayısına erişmek ise averge case kapsamına girer çünkü [2,6,16,18,22,27] son hali bu şekilde olduğu için 18 sayısı ortada yer alır.
